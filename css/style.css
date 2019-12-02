@@ -1,0 +1,90 @@
+.logo {
+    width: 7%;
+    min-width: 100px;
+    padding: 3px;
+}
+
+.nav-link {
+    color: midnightblue;
+}
+
+.carousel-caption {
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    left: 0px;
+}
+
+.float-top-left {
+    position: absolute;
+    /* transform: translate(5%, -10%) */
+    top: -2%;
+    left: 3%;
+}
+
+.float-bottom-right {
+    position: absolute;
+    bottom: -2%;
+    right: 3%;
+}
+
+.XRelative {
+    position: relative;
+}
+
+.list-item-header {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom:  1px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.list-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+
+/*index*/
+
+.slider-title{
+    background-color: #00000073;
+    display: inline-block;
+    padding: 5px;
+}
+.carousel-inner img, .slider-title{
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    /* width: 350px;
+    height: 250px;
+    object-fit: cover; */
+}
+
+@media (max-width : 720px) {
+    .carousel-inner img, .slider-title{
+        padding: 5px;
+        border-radius: 15px;
+        /* width: 200%; */
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+   }
+
+.carousel-item{
+    overflow: hidden;
+
+}
+/* galeria */
+
+.thumbnail-container{
+    margin: 2%;
+}
+.thumbnail-container-title{
+    margin-left: 3%;
+}

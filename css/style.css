@@ -88,3 +88,7 @@
 .thumbnail-container-title{
     margin-left: 3%;
 }
+.slider-title{
+    display: inline;
+    padding: 10px;
+}

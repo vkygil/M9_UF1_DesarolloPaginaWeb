@@ -66,13 +66,19 @@
 }
 
 @media (max-width : 720px) {
-    .carousel-inner img, .slider-title{
+    .carousel-inner img, .banner-img{
         padding: 5px;
         border-radius: 15px;
         /* width: 200%; */
-        width: 350px;
+        /* width: 350px; */
         height: 250px;
         object-fit: cover;
+    }
+
+    .card {
+        text-align: center;
+        display: contents;
+    
     }
    }
 
@@ -92,3 +98,13 @@
     display: inline;
     padding: 10px;
 }
+/* Slide */
+   img {
+	margin-left: 30px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ .col-sm:hover img {
+	margin-left: 0;
+}
+

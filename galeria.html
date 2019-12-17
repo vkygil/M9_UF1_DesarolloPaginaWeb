@@ -12,9 +12,15 @@
 </head>
 
 <body>
+
+	<style>
+		.row {
+			display: inline-flex;
+		}
+	</style>
 	<header>
 		<div class="text-center">
-			<a href="#">
+			<a href="/">
 				<img class="logo" src="img/porsche-svg.svg">
 			</a>
 		</div>
@@ -47,7 +53,7 @@
 	<br>
 
 	<div class="container-fluid">
-		<h1 class="text-center">Galeria</h1>
+		<h1 class="text-center"><b>Galeria</b></h1>
 
 		<div class="thumbnail-container">
 
@@ -55,17 +61,15 @@
 			<div class="row">
 				<div class="col-sm text-center">
 					<img src="img/gallery/718%20Cayman%20Models/1.webp" class="rounded text-center" alt="...">
-					<h3 class="text-center">718 Cayman Speed</h3>
+					<h3 class="text-center">718 Cayman Black</h3>
 
 				</div>
 				<div class="col-sm text-center">
 					<img src="img/gallery/718%20Cayman%20Models/2.webp" class="rounded text-center" alt="...">
-					<h3 class="text-center">718 Cayman Joe</h3>
+					<h3 class="text-center">718 Cayman Blue</h3>
 
 				</div>
 				<div class="col-sm text-center">
-					<!-- <img src="img/gallery/718 Cayman Models/3.webp  " class="rounded text-center" alt="...">
-                    <h3 class="text-center">pasd asd</h3> -->
 
 				</div>
 
@@ -89,8 +93,6 @@
 
 				</div>
 				<div class="col-sm text-center">
-					<!-- <img src="img/gallery/718 Cayman Models/3.webp  " class="rounded text-center" alt="...">
-                    <h3 class="text-center">pasd asd</h3> -->
 
 				</div>
 
@@ -116,14 +118,38 @@
 
 				</div>
 
+
 				<div class="col-sm text-center">
-					<img src="img/gallery/Taycan%20Models/3.webp" class="rounded text-center" alt="...">
-					<h3 class="text-center">Taycan Turbo S</h3>
+					<img src="img/gallery/Taycan%20Models/2.webp" style="filter:contrast(12);"
+						class="rounded text-center" alt="...">
+					<h3 class="text-center">Taycan Turbo Contrast</h3>
+
 				</div>
+				<div class="col-sm text-center">
+					<img src="img/gallery/Taycan%20Models/2.webp" style="filter: grayscale(80%);"
+						class="rounded text-center" alt="...">
+					<h3 class="text-center">Taycan Turbo Gray</h3>
+
+				</div>
+				<div class="col-sm text-center">
+					<img src="img/gallery/Taycan%20Models/2.webp" style="filter:hue-rotate(90deg);"
+						class="rounded text-center" alt="...">
+					<h3 class="text-center">Taycan Turbo Hue</h3>
+
+				</div>
+				
+				<div class="col-sm text-center">
+					<img src="img/gallery/Taycan%20Models/2.webp" style="filter: sepia(60%);"
+						class="rounded text-center" alt="...">
+					<h3 class="text-center">Taycan Turbo Sepia</h3>
+
+				</div>
+
 
 			</div>
 
 		</div>
+
 
 
 	</div>
@@ -176,6 +202,12 @@
 		</div>
 
 	</footer>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script>
+		ScrollReveal().reveal('.rounded', { reset: true, delay: 200 })
+
+	</script>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
